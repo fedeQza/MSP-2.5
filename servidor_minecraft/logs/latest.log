@@ -1,0 +1,9 @@
+[23:05:25] [ServerMain/ERROR]: Failed to start the minecraft server
+joptsimple.UnrecognizedOptionException: installServer is not a recognized option
+	at joptsimple.OptionException.unrecognizedOption(OptionException.java:108) ~[jopt-simple-5.0.4.jar:?]
+	at joptsimple.OptionParser.handleLongOptionToken(OptionParser.java:510) ~[jopt-simple-5.0.4.jar:?]
+	at joptsimple.OptionParserState$2.handleArgument(OptionParserState.java:56) ~[jopt-simple-5.0.4.jar:?]
+	at joptsimple.OptionParser.parse(OptionParser.java:396) ~[jopt-simple-5.0.4.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:89) ~[server-1.21.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
