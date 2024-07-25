@@ -1,0 +1,25 @@
+{
+  "name": "aternos/nbt",
+  "description": "PHP library to parse, modify, and create NBT objects",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Aternos\\Nbt\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Kurt Thiemann",
+      "email": "kurt@aternos.org"
+    }
+  ],
+  "require": {
+    "pocketmine/binaryutils": "^0.2.1",
+    "php": ">=8.1",
+    "php-64bit": "*",
+    "ext-zlib": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  }
+}

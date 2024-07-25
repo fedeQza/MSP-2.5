@@ -1,0 +1,26 @@
+{
+  "name": "aternos/thanos",
+  "description": "Simple library to detect and remove unused chunks from a Minecraft world.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kurt Thiemann",
+      "email": "kurt@aternos.org"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "ext-zlib": "*",
+    "aternos/nbt": "^v1.9.0",
+    "aternos/taskmaster": "^1.1.3"
+  },
+  "suggest": {
+    "ext-lz4": "Support for LZ4 compressed chunks (Minecraft 1.20.5+)"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aternos\\Thanos\\": "src/"
+    }
+  }
+}
