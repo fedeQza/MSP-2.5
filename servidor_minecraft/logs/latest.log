@@ -1,32 +1,132 @@
-[23:38:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:38:14] [ServerMain/WARN]: Missing data pack paper
-[23:38:16] [ServerMain/INFO]: Loaded 1290 recipes
-[23:38:16] [ServerMain/INFO]: Loaded 1399 advancements
-[23:38:16] [Server thread/INFO]: Starting minecraft server version 1.21
-[23:38:16] [Server thread/INFO]: Loading properties
-[23:38:16] [Server thread/INFO]: Default game type: SURVIVAL
-[23:38:16] [Server thread/INFO]: Generating keypair
-[23:38:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:38:17] [Server thread/INFO]: Using epoll channel type
-[23:38:17] [Server thread/INFO]: Preparing level "world"
-[23:38:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:38:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:38:20] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[23:38:20] [Server thread/INFO]: Time elapsed: 550 ms
-[23:38:20] [Server thread/INFO]: Done (2.943s)! For help, type "help"
-[23:38:29] [User Authenticator #1/INFO]: UUID of player Hasbullita is 2bb60544-0a27-4553-9bfe-4be2898d614e
-[23:38:32] [Server thread/INFO]: Hasbullita[/127.93.101.9:49945] logged in with entity id 94 at (0.8333897240256908, 80.8625367947554, 0.34277289780904263)
-[23:38:32] [Server thread/INFO]: Hasbullita joined the game
-[23:38:53] [Server thread/INFO]: Hasbullita lost connection: Disconnected
-[23:38:53] [Server thread/INFO]: Hasbullita left the game
-[23:39:02] [Server thread/INFO]: Stopping the server
-[23:39:02] [Server thread/INFO]: Stopping server
-[23:39:02] [Server thread/INFO]: Saving players
-[23:39:02] [Server thread/INFO]: Saving worlds
-[23:39:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:39:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:39:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:39:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:39:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:39:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:39:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:40:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.3+9-LTS; Microsoft Microsoft-9388422) on Linux 6.5.0-1022-azure (amd64)
+[23:40:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-109-master@5a5035b (2024-07-23T08:16:30Z) for Minecraft 1.21
+[23:40:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:40:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[23:40:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - FastChunkPregenerator (2.0.9-SNAPSHOT), SkinsRestorer (15.4.0)
+[23:40:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:40:48] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[23:40:50] [ServerMain/INFO]: Loaded 1290 recipes
+[23:40:50] [ServerMain/INFO]: Loaded 1399 advancements
+[23:40:50] [Server thread/INFO]: Starting minecraft server version 1.21
+[23:40:50] [Server thread/INFO]: Loading properties
+[23:40:50] [Server thread/INFO]: This server is running Paper version 1.21-109-master@5a5035b (2024-07-23T08:16:30Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[23:40:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:40:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:40:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:40:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[23:40:52] [Server thread/INFO]: Default game type: SURVIVAL
+[23:40:52] [Server thread/INFO]: Generating keypair
+[23:40:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:40:52] [Server thread/INFO]: Using epoll channel type
+[23:40:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[23:40:52] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[23:40:52] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+[23:40:52] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.0
+[23:40:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:40:52] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.0
+[23:40:54] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.
+[23:40:56] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[23:40:56] [Server thread/INFO]: Preparing level "world"
+[23:40:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:40:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[23:40:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[23:40:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[23:40:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[23:40:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[23:40:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:40:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.0
+[23:40:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7837da9
+[23:40:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[23:40:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[23:40:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:40:58] [Server thread/INFO]: Time elapsed: 1338 ms
+[23:40:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:40:58] [Server thread/INFO]: Time elapsed: 408 ms
+[23:40:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:40:58] [Server thread/INFO]: Time elapsed: 178 ms
+[23:40:58] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+[23:40:58] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[23:40:58] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[23:40:59] [Server thread/INFO]: [spark] Starting background profiler...
+[23:40:59] [Server thread/INFO]: Done preparing level "world" (3.797s)
+[23:41:00] [Server thread/INFO]: Running delayed init tasks
+[23:41:00] [Server thread/INFO]: Done (17.113s)! For help, type "help"
+[23:41:00] [Server thread/INFO]: Timings Reset
+[23:41:11] [User Authenticator #0/INFO]: UUID of player Hasbullita is 2bb60544-0a27-4553-9bfe-4be2898d614e
+[23:41:13] [Server thread/INFO]: Hasbullita joined the game
+[23:41:13] [Server thread/INFO]: Hasbullita[/127.93.101.9:49293] logged in with entity id 96 at ([world]-0.20362094448831666, 83.48822496322545, 1.703590068476664)
+[23:41:19] [Server thread/INFO]: Hasbullita issued server command: /plugins
+[23:41:28] [Server thread/INFO]: Hasbullita issued server command: /fcp
+[23:41:32] [Server thread/INFO]: Hasbullita issued server command: /fcp pending
+[23:41:49] [Server thread/INFO]: Hasbullita issued server command: /fcp cancel
+[23:42:05] [Server thread/INFO]: Hasbullita issued server command: /fcp start 2000 world
+[23:42:31] [Server thread/INFO]: Hasbullita issued server command: /fcp resume
+[23:42:31] [Server thread/INFO]: [world] Fetching Coordinates: 0 of 63001 [0.0%]
+[23:42:31] [Server thread/INFO]: [world] Fetching Coordinates: 63001 of 63001 [100.0%]
+[23:42:31] [Server thread/INFO]: [world] Fetching world chunks: 0 of 65536 [0.0%]
+[23:42:31] [Server thread/INFO]: [world] Fetching world chunks: 64513 of 65536 [98.43%]
+[23:42:31] [Server thread/INFO]: [world] Filtering pre-generated: 0 of 63001 [0.0%] with [0.0 Chunks/s]
+[23:42:36] [Server thread/INFO]: [world] Filtering pre-generated: 3571 of 63001 [5.66%] with [714.2 Chunks/s]
+[23:42:41] [Server thread/INFO]: [world] Filtering pre-generated: 5678 of 63001 [9.01%] with [421.4 Chunks/s]
+[23:42:46] [Server thread/INFO]: [world] Filtering pre-generated: 7968 of 63001 [12.64%] with [458.0 Chunks/s]
+[23:42:51] [Server thread/INFO]: [world] Filtering pre-generated: 10243 of 63001 [16.25%] with [455.0 Chunks/s]
+[23:42:56] [Server thread/INFO]: [world] Filtering pre-generated: 12533 of 63001 [19.89%] with [458.0 Chunks/s]
+[23:43:01] [Server thread/INFO]: [world] Filtering pre-generated: 14806 of 63001 [23.5%] with [454.6 Chunks/s]
+[23:43:06] [Server thread/INFO]: [world] Filtering pre-generated: 17168 of 63001 [27.25%] with [472.4 Chunks/s]
+[23:43:11] [Server thread/INFO]: [world] Filtering pre-generated: 19446 of 63001 [30.86%] with [455.6 Chunks/s]
+[23:43:16] [Server thread/INFO]: [world] Filtering pre-generated: 21738 of 63001 [34.5%] with [458.4 Chunks/s]
+[23:43:21] [Server thread/INFO]: [world] Filtering pre-generated: 24058 of 63001 [38.18%] with [464.0 Chunks/s]
+[23:43:26] [Server thread/INFO]: [world] Filtering pre-generated: 26308 of 63001 [41.75%] with [450.0 Chunks/s]
+[23:43:31] [Server thread/INFO]: [world] Filtering pre-generated: 28501 of 63001 [45.23%] with [438.6 Chunks/s]
+[23:43:36] [Server thread/INFO]: [world] Filtering pre-generated: 30659 of 63001 [48.66%] with [431.6 Chunks/s]
+[23:43:41] [Server thread/INFO]: [world] Filtering pre-generated: 32899 of 63001 [52.21%] with [448.0 Chunks/s]
+[23:43:46] [Server thread/INFO]: [world] Filtering pre-generated: 35212 of 63001 [55.89%] with [462.6 Chunks/s]
+[23:43:51] [Server thread/INFO]: [world] Filtering pre-generated: 37479 of 63001 [59.48%] with [453.4 Chunks/s]
+[23:43:56] [Server thread/INFO]: [world] Filtering pre-generated: 39849 of 63001 [63.25%] with [474.0 Chunks/s]
+[23:44:01] [Server thread/INFO]: [world] Filtering pre-generated: 42222 of 63001 [67.01%] with [474.6 Chunks/s]
+[23:44:06] [Server thread/INFO]: [world] Filtering pre-generated: 44549 of 63001 [70.71%] with [465.4 Chunks/s]
+[23:44:11] [Server thread/INFO]: [world] Filtering pre-generated: 46859 of 63001 [74.37%] with [462.0 Chunks/s]
+[23:44:16] [Server thread/INFO]: [world] Filtering pre-generated: 49272 of 63001 [78.2%] with [482.6 Chunks/s]
+[23:44:21] [Server thread/INFO]: [world] Filtering pre-generated: 51377 of 63001 [81.54%] with [421.0 Chunks/s]
+[23:44:26] [Server thread/INFO]: [world] Filtering pre-generated: 52529 of 63001 [83.37%] with [230.4 Chunks/s]
+[23:44:31] [Server thread/INFO]: [world] Filtering pre-generated: 57631 of 63001 [91.47%] with [1020.4 Chunks/s]
+[23:44:34] [Server thread/INFO]: [world] Filtering pre-generated: 63001 of 63001 [100.0%] with [1652.3 Chunks/s]
+[23:44:34] [Server thread/INFO]: [world] Generating Chunks: 0 of 11665 [0.0%] with [0.0 Chunks/s]
+[23:44:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2516ms or 50 ticks behind
+[23:44:40] [Server thread/INFO]: [world] Generating Chunks: 568 of 11665 [4.86%] with [110.93 Chunks/s]
+[23:44:45] [Server thread/INFO]: [world] Generating Chunks: 619 of 11665 [5.3%] with [10.09 Chunks/s]
+[23:44:50] [Server thread/INFO]: [world] Generating Chunks: 691 of 11665 [5.92%] with [14.27 Chunks/s]
+[23:44:55] [Server thread/INFO]: [world] Generating Chunks: 758 of 11665 [6.49%] with [13.24 Chunks/s]
+[23:45:00] [Server thread/INFO]: [world] Generating Chunks: 819 of 11665 [7.02%] with [12.06 Chunks/s]
+[23:45:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9338ms or 186 ticks behind
+[23:45:05] [Server thread/INFO]: [world] Generating Chunks: 879 of 11665 [7.53%] with [11.94 Chunks/s]
+[23:45:08] [Server thread/INFO]: Hasbullita issued server command: /fcp pause
+[23:45:12] [Server thread/INFO]: Hasbullita issued server command: /stop
+[23:45:12] [Server thread/INFO]: [Hasbullita: Stopping the server]
+[23:45:12] [Server thread/INFO]: Stopping server
+[23:45:12] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.0
+[23:45:12] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.9-SNAPSHOT
+[23:45:12] [Server thread/INFO]: Saving players
+[23:45:12] [Server thread/INFO]: Hasbullita lost connection: Server closed
+[23:45:12] [Server thread/INFO]: Hasbullita left the game
+[23:45:12] [Server thread/INFO]: Saving worlds
+[23:45:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:45:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:45:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:45:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:45:14] [Server thread/INFO]: [ChunkHolderManager] Saved 1444 block chunks, 1444 entity chunks, 0 poi chunks in world 'world' in 2.56s
+[23:45:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:45:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:45:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:45:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:45:15] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
+[23:45:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:45:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:45:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:45:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:45:16] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.05s
+[23:45:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:45:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:45:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:45:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
