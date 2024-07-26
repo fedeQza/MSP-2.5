@@ -53,3 +53,22 @@ ip<--[HERE]
 [18:43:37] [Server thread/INFO]: Hasbullita issued server command: /plugins
 [18:43:57] [Server thread/INFO]: Hasbullita issued server command: /tps
 [18:44:07] [Server thread/INFO]: Hasbullita issued server command: /transfer
+[18:44:35] [Server thread/INFO]: Hasbullita issued server command: /random
+[18:44:39] [Server thread/INFO]: Hasbullita issued server command: /random roll
+[18:44:46] [Server thread/INFO]: Hasbullita issued server command: /random roll 15 1
+[18:44:49] [Server thread/INFO]: Hasbullita issued server command: /random roll 15 2
+[18:45:02] [Server thread/INFO]: Hasbullita issued server command: /random roll 1 2
+[18:45:06] [Server thread/INFO]: Hasbullita issued server command: /random roll 1 minecraft:blocks/azalea
+[18:45:10] [Server thread/INFO]: Hasbullita issued server command: /random roll 3 minecraft:blocks/azalea
+[18:45:21] [Server thread/INFO]: Hasbullita issued server command: /random value 10 1
+[18:45:45] [Server thread/INFO]: Hasbullita issued server command: /mspt
+[18:46:29] [Server thread/INFO]: Hasbullita issued server command: /minecraft:return run
+[18:46:45] [Server thread/INFO]: Hasbullita issued server command: /spark ping --Hasbullita
+[18:47:53] [Server thread/INFO]: Hasbullita issued server command: /fill 0 71 13
+[18:48:02] [Server thread/INFO]: Hasbullita issued server command: /fill 0 71 13 -18 71 19 minecraft:grass_block
+[18:48:02] [Server thread/INFO]: [Hasbullita: Successfully filled 99 block(s)]
+[18:48:30] [Server thread/INFO]: Hasbullita issued server command: /give Hasbullita minecraft:light
+[18:48:30] [Server thread/INFO]: [Hasbullita: Gave 1 [Light] to Hasbullita]
+[18:53:30] [User Authenticator #3/INFO]: Disconnecting balles (/[0:0:0:0:0:0:0:1%0]:51238): Failed to verify username!
+[18:53:30] [User Authenticator #3/ERROR]: Username 'balles' tried to join with an invalid session
+[18:53:30] [Server thread/INFO]: balles (/[0:0:0:0:0:0:0:1%0]:51238) lost connection: Failed to verify username!
