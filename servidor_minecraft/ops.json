@@ -1,7 +1,43 @@
 [
   {
+    "uuid": "e2ac0b3d-424f-35d6-b809-4351bcc345e0",
+    "name": "Hasbullita",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f3dc4170-7c7d-35e5-8bed-ea79061118d3",
+    "name": "Crottinho",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f509f68b-076d-3936-a018-3ca7f4211e61",
+    "name": "TBalles",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "9147ae06-b859-3be6-a2f9-ce204ac86edf",
+    "name": "Elivipadre",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "2a1dbdad-4c67-3be9-94f7-29e916d930b4",
+    "name": "@a",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "2bb60544-0a27-4553-9bfe-4be2898d614e",
     "name": "Hasbullita",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "2d3f779c-61e1-4e4c-904a-64a073706264",
+    "name": "Balles",
     "level": 4,
     "bypassesPlayerLimit": false
   }
