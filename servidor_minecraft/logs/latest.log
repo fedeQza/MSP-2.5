@@ -72,3 +72,6 @@ ip<--[HERE]
 [18:53:30] [User Authenticator #3/INFO]: Disconnecting balles (/[0:0:0:0:0:0:0:1%0]:51238): Failed to verify username!
 [18:53:30] [User Authenticator #3/ERROR]: Username 'balles' tried to join with an invalid session
 [18:53:30] [Server thread/INFO]: balles (/[0:0:0:0:0:0:0:1%0]:51238) lost connection: Failed to verify username!
+[18:54:33] [User Authenticator #4/INFO]: Disconnecting balles (/[0:0:0:0:0:0:0:1%0]:53690): Failed to verify username!
+[18:54:33] [User Authenticator #4/ERROR]: Username 'balles' tried to join with an invalid session
+[18:54:33] [Server thread/INFO]: balles (/[0:0:0:0:0:0:0:1%0]:53690) lost connection: Failed to verify username!
