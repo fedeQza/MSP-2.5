@@ -1,102 +1,329 @@
-[18:22:39] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.3+9-LTS; Microsoft Microsoft-9388422) on Linux 6.5.0-1022-azure (amd64)
-[18:22:39] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-109-master@5a5035b (2024-07-23T08:16:30Z) for Minecraft 1.21
-[18:22:39] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:22:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[18:22:42] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
-[18:22:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:23:02] [ServerMain/INFO]: Loaded 1290 recipes
-[18:23:04] [ServerMain/INFO]: Loaded 1399 advancements
-[18:23:05] [Server thread/INFO]: Starting minecraft server version 1.21
-[18:23:05] [Server thread/INFO]: Loading properties
-[18:23:05] [Server thread/INFO]: This server is running Paper version 1.21-109-master@5a5035b (2024-07-23T08:16:30Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[18:23:06] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 23961ms.
-[18:23:07] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:23:07] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:23:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:23:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[18:23:09] [Server thread/INFO]: Default game type: SURVIVAL
-[18:23:09] [Server thread/INFO]: Generating keypair
-[18:23:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:23:09] [Server thread/INFO]: Using epoll channel type
-[18:23:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:23:09] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[18:23:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:23:09] [Server thread/INFO]: Preparing level "world"
-[18:23:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:23:13] [Server thread/INFO]: Time elapsed: 2880 ms
-[18:23:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:23:13] [Server thread/INFO]: Time elapsed: 384 ms
-[18:23:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:23:14] [Server thread/INFO]: Time elapsed: 312 ms
-[18:23:14] [Server thread/INFO]: [spark] Starting background profiler...
-[18:23:15] [Server thread/INFO]: Done preparing level "world" (5.877s)
-[18:23:15] [Server thread/INFO]: Running delayed init tasks
-[18:23:15] [Server thread/INFO]: Done (38.172s)! For help, type "help"
-[18:23:15] [Server thread/INFO]: Timings Reset
-[18:23:22] [User Authenticator #0/INFO]: UUID of player Hasbullita is 2bb60544-0a27-4553-9bfe-4be2898d614e
-[18:23:24] [Server thread/INFO]: Hasbullita joined the game
-[18:23:24] [Server thread/INFO]: Hasbullita[/[0:0:0:0:0:0:0:1%0]:50708] logged in with entity id 62 at ([world]-4.1054552485086475, 72.0, 0.07660429435797082)
-[18:27:00] [Server thread/INFO]: Hasbullita lost connection: Timed out
-[18:27:00] [Server thread/INFO]: Hasbullita left the game
-[18:27:52] [User Authenticator #1/INFO]: UUID of player Hasbullita is 2bb60544-0a27-4553-9bfe-4be2898d614e
-[18:27:54] [Server thread/INFO]: Hasbullita joined the game
-[18:27:54] [Server thread/INFO]: Hasbullita[/[0:0:0:0:0:0:0:1%0]:57660] logged in with entity id 456 at ([world]6.344024923748034, 72.0, -5.180818762112548)
-[18:29:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
-ipconfig /all<--[HERE]
-[18:29:26] [Server thread/INFO]: Hasbullita lost connection: Timed out
-[18:29:26] [Server thread/INFO]: Hasbullita left the game
-[18:32:05] [Server thread/INFO]: Unknown or incomplete command, see below for error
-ip<--[HERE]
-[18:42:47] [User Authenticator #2/INFO]: UUID of player Hasbullita is 2bb60544-0a27-4553-9bfe-4be2898d614e
-[18:42:49] [Server thread/INFO]: Hasbullita joined the game
-[18:42:49] [Server thread/INFO]: Hasbullita[/[0:0:0:0:0:0:0:1%0]:35506] logged in with entity id 633 at ([world]4.254900899863295, 72.0, -6.2912877875949835)
-[18:43:37] [Server thread/INFO]: Hasbullita issued server command: /plugins
-[18:43:57] [Server thread/INFO]: Hasbullita issued server command: /tps
-[18:44:07] [Server thread/INFO]: Hasbullita issued server command: /transfer
-[18:44:35] [Server thread/INFO]: Hasbullita issued server command: /random
-[18:44:39] [Server thread/INFO]: Hasbullita issued server command: /random roll
-[18:44:46] [Server thread/INFO]: Hasbullita issued server command: /random roll 15 1
-[18:44:49] [Server thread/INFO]: Hasbullita issued server command: /random roll 15 2
-[18:45:02] [Server thread/INFO]: Hasbullita issued server command: /random roll 1 2
-[18:45:06] [Server thread/INFO]: Hasbullita issued server command: /random roll 1 minecraft:blocks/azalea
-[18:45:10] [Server thread/INFO]: Hasbullita issued server command: /random roll 3 minecraft:blocks/azalea
-[18:45:21] [Server thread/INFO]: Hasbullita issued server command: /random value 10 1
-[18:45:45] [Server thread/INFO]: Hasbullita issued server command: /mspt
-[18:46:29] [Server thread/INFO]: Hasbullita issued server command: /minecraft:return run
-[18:46:45] [Server thread/INFO]: Hasbullita issued server command: /spark ping --Hasbullita
-[18:47:53] [Server thread/INFO]: Hasbullita issued server command: /fill 0 71 13
-[18:48:02] [Server thread/INFO]: Hasbullita issued server command: /fill 0 71 13 -18 71 19 minecraft:grass_block
-[18:48:02] [Server thread/INFO]: [Hasbullita: Successfully filled 99 block(s)]
-[18:48:30] [Server thread/INFO]: Hasbullita issued server command: /give Hasbullita minecraft:light
-[18:48:30] [Server thread/INFO]: [Hasbullita: Gave 1 [Light] to Hasbullita]
-[18:53:30] [User Authenticator #3/INFO]: Disconnecting balles (/[0:0:0:0:0:0:0:1%0]:51238): Failed to verify username!
-[18:53:30] [User Authenticator #3/ERROR]: Username 'balles' tried to join with an invalid session
-[18:53:30] [Server thread/INFO]: balles (/[0:0:0:0:0:0:0:1%0]:51238) lost connection: Failed to verify username!
-[18:54:33] [User Authenticator #4/INFO]: Disconnecting balles (/[0:0:0:0:0:0:0:1%0]:53690): Failed to verify username!
-[18:54:33] [User Authenticator #4/ERROR]: Username 'balles' tried to join with an invalid session
-[18:54:33] [Server thread/INFO]: balles (/[0:0:0:0:0:0:0:1%0]:53690) lost connection: Failed to verify username!
-[18:54:53] [Server thread/INFO]: Stopping the server
-[18:54:53] [Server thread/INFO]: Stopping server
-[18:54:53] [Server thread/INFO]: Saving players
-[18:54:53] [Server thread/INFO]: Hasbullita lost connection: Server closed
-[18:54:53] [Server thread/INFO]: Hasbullita left the game
-[18:54:53] [Server thread/INFO]: Saving worlds
-[18:54:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:54:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:54:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:54:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Saved 14 block chunks, 120 entity chunks, 0 poi chunks in world 'world' in 0.12s
-[18:54:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
-[18:54:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[18:54:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:54:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:54:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:54:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:55:42] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.3+9-LTS; Microsoft Microsoft-9388422) on Linux 6.5.0-1022-azure (amd64)
+[18:55:42] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-109-master@5a5035b (2024-07-23T08:16:30Z) for Minecraft 1.21
+[18:55:42] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:55:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[18:55:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:55:54] [ServerMain/INFO]: Loaded 1290 recipes
+[18:55:54] [ServerMain/INFO]: Loaded 1399 advancements
+[18:55:55] [Server thread/INFO]: Starting minecraft server version 1.21
+[18:55:55] [Server thread/INFO]: Loading properties
+[18:55:55] [Server thread/INFO]: This server is running Paper version 1.21-109-master@5a5035b (2024-07-23T08:16:30Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[18:55:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:55:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:55:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:55:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[18:55:57] [Server thread/INFO]: Default game type: SURVIVAL
+[18:55:57] [Server thread/INFO]: Generating keypair
+[18:55:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:55:58] [Server thread/INFO]: Using epoll channel type
+[18:55:58] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:55:58] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:55:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:55:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:55:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:55:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:55:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:55:58] [Server thread/INFO]: Preparing level "world"
+[18:55:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:56:01] [Server thread/INFO]: Time elapsed: 2476 ms
+[18:56:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:56:01] [Server thread/INFO]: Time elapsed: 337 ms
+[18:56:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:56:02] [Server thread/INFO]: Time elapsed: 265 ms
+[18:56:02] [Server thread/INFO]: [spark] Starting background profiler...
+[18:56:03] [Server thread/INFO]: Done preparing level "world" (4.839s)
+[18:56:03] [Server thread/INFO]: Running delayed init tasks
+[18:56:03] [Server thread/INFO]: Done (22.595s)! For help, type "help"
+[18:56:03] [Server thread/INFO]: Timings Reset
+[18:56:04] [User Authenticator #0/INFO]: UUID of player Hasbullita is e2ac0b3d-424f-35d6-b809-4351bcc345e0
+[18:56:07] [Server thread/INFO]: Hasbullita joined the game
+[18:56:07] [Server thread/INFO]: Hasbullita[/[0:0:0:0:0:0:0:1%0]:41038] logged in with entity id 67 at ([world]-0.5, 72.0, 4.5)
+[18:56:18] [User Authenticator #0/INFO]: UUID of player balles is 29381929-5c5f-3ca8-aeaa-6ed360cb2acc
+[18:56:20] [Server thread/INFO]: balles joined the game
+[18:56:20] [Server thread/INFO]: balles[/[0:0:0:0:0:0:0:1%0]:39830] logged in with entity id 153 at ([world]-4.5, 72.0, 4.5)
+[18:57:12] [Server thread/INFO]: balles lost connection: Timed out
+[18:57:12] [Server thread/INFO]: balles left the game
+[18:57:33] [Server thread/INFO]: Made Hasbullita a server operator
+[18:57:53] [Server thread/INFO]: Hasbullita issued server command: /give @a minecraft:structure_block
+[18:57:53] [Server thread/INFO]: [Hasbullita: Gave 1 [Structure Block] to Hasbullita]
+[18:57:58] [Server thread/INFO]: Hasbullita issued server command: /gamemode creative
+[18:57:58] [Server thread/INFO]: [Hasbullita: Set own game mode to Creative Mode]
+[18:58:30] [Server thread/INFO]: Hasbullita issued server command: /gamerule commandBlockOutput
+[18:58:37] [Server thread/INFO]: Hasbullita issued server command: /gamerule playersSleepingPercentage
+[19:04:40] [Server thread/INFO]: Hasbullita issued server command: /setblock ~ ~ ~ minecraft:stone
+[19:04:40] [Server thread/INFO]: [Hasbullita: Changed the block at -7, 90, 43]
+[19:05:30] [Server thread/INFO]: Hasbullita issued server command: /fill 5 92 51
+[19:05:37] [Server thread/INFO]: Hasbullita issued server command: /fill 5 92 51 -1 99 58 air
+[19:05:37] [Server thread/INFO]: [Hasbullita: Successfully filled 116 block(s)]
+[19:07:51] [Server thread/INFO]: Hasbullita issued server command: /setblock ~ ~ ~ minecraft:structure_block
+[19:07:51] [Server thread/INFO]: [Hasbullita: Changed the block at 2, 94, 38]
+[19:12:29] [Server thread/INFO]: Hasbullita lost connection: Timed out
+[19:12:29] [Server thread/INFO]: Hasbullita left the game
+[19:14:37] [User Authenticator #1/INFO]: UUID of player Hasbullita is e2ac0b3d-424f-35d6-b809-4351bcc345e0
+[19:14:39] [Server thread/INFO]: Hasbullita joined the game
+[19:14:39] [Server thread/INFO]: Hasbullita[/[0:0:0:0:0:0:0:1%0]:36340] logged in with entity id 1822 at ([world]4.056594327966091, 91.87220994836503, 26.183288662329105)
+[19:15:07] [Server thread/INFO]: Hasbullita issued server command: /fill 5 94 34
+[19:15:15] [Server thread/INFO]: Hasbullita issued server command: /fill 5 94 34 -3 102 41 air
+[19:15:15] [Server thread/INFO]: [Hasbullita: Successfully filled 131 block(s)]
+[19:15:27] [Server thread/INFO]: Hasbullita issued server command: /setblock ~ ~ ~ minecraft:acacia_fence
+[19:15:27] [Server thread/INFO]: [Hasbullita: Changed the block at -3, 103, 41]
+[19:15:28] [User Authenticator #1/INFO]: UUID of player Crottinho is f3dc4170-7c7d-35e5-8bed-ea79061118d3
+[19:15:30] [Server thread/INFO]: Crottinho joined the game
+[19:15:30] [Server thread/INFO]: Crottinho[/[0:0:0:0:0:0:0:1%0]:38298] logged in with entity id 1976 at ([world]8.5, 72.0, 1.5)
+[19:17:05] [Async Chat Thread - #0/INFO]: [Not Secure] <Crottinho> gamemode creativo
+[19:17:16] [Server thread/INFO]: Hasbullita issued server command: /op Crottinho
+[19:17:16] [Server thread/INFO]: [Hasbullita: Made Crottinho a server operator]
+[19:17:21] [Server thread/INFO]: Hasbullita issued server command: /gamemode creative Crottinho
+[19:17:21] [Server thread/INFO]: [Hasbullita: Set Crottinho's game mode to Creative Mode]
+[19:18:03] [Server thread/INFO]: Hasbullita issued server command: /spark ping --Hasbullita
+[19:18:48] [Server thread/INFO]: Unknown or incomplete command, see below for error
+aa<--[HERE]
+[19:21:30] [Server thread/INFO]: Crottinho has made the advancement [Hot Stuff]
+[19:22:48] [Server thread/INFO]: Hasbullita has made the advancement [Smells Interesting]
+[19:24:02] [Server thread/INFO]: Hasbullita has made the advancement [Acquire Hardware]
+[19:25:08] [Server thread/INFO]: Hasbullita issued server command: /enchant Hasbullita minecraft:density 3
+[19:25:08] [Server thread/INFO]: [Hasbullita: Applied enchantment Density III to Hasbullita's item]
+[19:25:18] [Server thread/INFO]: Hasbullita issued server command: /enchant Hasbullita minecraft:density 5
+[19:25:18] [Server thread/INFO]: [Hasbullita: Applied enchantment Density V to Hasbullita's item]
+[19:25:24] [Server thread/INFO]: Hasbullita issued server command: /enchant Hasbullita minecraft:wind_burst 3
+[19:25:24] [Server thread/INFO]: [Hasbullita: Applied enchantment Wind Burst III to Hasbullita's item]
+[19:25:48] [Server thread/INFO]: Hasbullita has completed the challenge [Over-Overkill]
+[19:26:13] [Server thread/INFO]: Hasbullita has made the advancement [Spooky Scary Skeleton]
+[19:28:30] [Server thread/INFO]: Hasbullita issued server command: /tp ~ ~200 ~
+[19:28:30] [Server thread/INFO]: [Hasbullita: Teleported Hasbullita to 2.203504, 272.000000, -9.083767]
+[19:28:37] [Server thread/INFO]: Hasbullita issued server command: /tp ~ ~200 ~
+[19:28:37] [Server thread/INFO]: [Hasbullita: Teleported Hasbullita to 2.074966, 272.000000, -8.711022]
+[19:28:58] [User Authenticator #2/INFO]: UUID of player TBalles is f509f68b-076d-3936-a018-3ca7f4211e61
+[19:29:00] [Server thread/INFO]: TBalles joined the game
+[19:29:00] [Server thread/INFO]: TBalles[/[0:0:0:0:0:0:0:1%0]:54834] logged in with entity id 3333 at ([world]8.5, 72.0, -0.5)
+[19:29:11] [Server thread/INFO]: Crottinho has completed the challenge [Over-Overkill]
+[19:29:18] [Server thread/INFO]: TBalles has made the advancement [Acquire Hardware]
+[19:29:40] [Server thread/INFO]: Hasbullita issued server command: /kill @e[type=!minecraft:player]
+[19:29:40] [Server thread/INFO]: [Hasbullita: Killed 136 entities]
+[19:29:57] [Server thread/INFO]: TBalles was slain by Crottinho
+[19:31:43] [Server thread/INFO]: Hasbullita issued server command: /clear TBalles
+[19:31:43] [Server thread/INFO]: [Hasbullita: Removed 7 item(s) from player TBalles]
+[19:32:18] [Server thread/INFO]: Hasbullita issued server command: /clone -3 74 4
+[19:32:35] [Server thread/INFO]: Hasbullita issued server command: /clone -3 74 4 4 79 -4 to minecraft:overworld 4 79 -4
+[19:32:49] [Server thread/INFO]: Hasbullita issued server command: /clone -3 74 4 4 79 -4 to minecraft:overworld 4 90 -4
+[19:32:49] [Server thread/INFO]: [Hasbullita: Successfully cloned 432 block(s)]
+[19:33:18] [Server thread/INFO]: Hasbullita issued server command: /clone -3 74 4 4 79 -4 to minecraft:overworld -3 76 4
+[19:33:23] [Server thread/INFO]: Hasbullita issued server command: /clone -3 74 4 4 79 -4 to minecraft:overworld -3 76 4 replace
+[19:33:29] [Server thread/INFO]: Hasbullita issued server command: /clone -3 74 4 4 79 -4 to minecraft:overworld -3 77 4 replace
+[19:33:35] [Server thread/INFO]: Hasbullita issued server command: /clone -3 74 4 4 79 -4 to minecraft:overworld -3 80 4 replace
+[19:33:35] [Server thread/INFO]: [Hasbullita: Successfully cloned 432 block(s)]
+[19:34:17] [Server thread/INFO]: Hasbullita issued server command: /op TBalles
+[19:34:17] [Server thread/INFO]: [Hasbullita: Made TBalles a server operator]
+[19:34:23] [Server thread/INFO]: Hasbullita issued server command: /gamemode creative TBalles
+[19:34:23] [Server thread/INFO]: [Hasbullita: Set TBalles's game mode to Creative Mode]
+[19:34:33] [Server thread/INFO]: TBalles issued server command: /gamemode creative
+[19:35:49] [Server thread/INFO]: Unknown or incomplete command, see below for error
+ip/all<--[HERE]
+[19:36:06] [Server thread/INFO]: Unknown or incomplete command, see below for error
+ipconfig/all<--[HERE]
+[19:36:11] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/ipconfig /all<--[HERE]
+[19:49:34] [Server thread/INFO]: Hasbullita issued server command: /give Hasbullita minecraft:light
+[19:49:34] [Server thread/INFO]: [Hasbullita: Gave 1 [Light] to Hasbullita]
+[19:54:21] [Server thread/INFO]: Crottinho lost connection: Timed out
+[19:54:21] [Server thread/INFO]: Crottinho left the game
+[19:56:27] [User Authenticator #3/INFO]: UUID of player Crottinho is f3dc4170-7c7d-35e5-8bed-ea79061118d3
+[19:56:29] [Server thread/INFO]: Crottinho joined the game
+[19:56:29] [Server thread/INFO]: Crottinho[/[0:0:0:0:0:0:0:1%0]:48820] logged in with entity id 6108 at ([world]8.058253127235322, 72.0, 10.217886761872178)
+[19:58:19] [Server thread/INFO]: TBalles has made the advancement [Glow and Behold!]
+[20:01:43] [Server thread/INFO]: Crottinho has made the advancement [Who is Cutting Onions?]
+[20:02:01] [Server thread/INFO]: Hasbullita issued server command: /tp crottinho ~ ~1000000 ~
+[20:02:01] [Server thread/INFO]: [Hasbullita: Teleported Crottinho to -0.034472, 1000077.488089, -7.613140]
+[20:02:25] [Server thread/INFO]: Hasbullita issued server command: /tp crottinho Hasbullita
+[20:02:25] [Server thread/INFO]: [Hasbullita: Teleported Crottinho to Hasbullita]
+[20:02:31] [Server thread/INFO]: Hasbullita issued server command: /tp crottinho ~ ~1000000 ~
+[20:02:31] [Server thread/INFO]: [Hasbullita: Teleported Crottinho to 3.842050, 1000073.000000, 1.310070]
+[20:02:51] [Server thread/INFO]: Hasbullita issued server command: /tp TBalles Crottinho
+[20:02:51] [Server thread/INFO]: [Hasbullita: Teleported TBalles to Crottinho]
+[20:03:13] [Server thread/INFO]: Hasbullita issued server command: /tp @e Hasbullita
+[20:03:13] [Server thread/INFO]: [Hasbullita: Teleported 129 entities to Hasbullita]
+[20:03:30] [Server thread/INFO]: Hasbullita issued server command: /kill @e[type=!minecraft:player]
+[20:03:30] [Server thread/INFO]: [Hasbullita: Killed 111 entities]
+[20:03:31] [Server thread/INFO]: Hasbullita issued server command: /kill @e[type=!minecraft:player]
+[20:03:31] [Server thread/INFO]: [Hasbullita: Killed 115 entities]
+[20:03:33] [Server thread/INFO]: Hasbullita issued server command: /kill @e[type=!minecraft:player]
+[20:03:33] [Server thread/INFO]: [Hasbullita: Killed 108 entities]
+[20:03:50] [Server thread/INFO]: TBalles issued server command: /effect give Hasbullita minecraft:blindness
+[20:03:50] [Server thread/INFO]: [TBalles: Applied effect Blindness to Hasbullita]
+[20:04:03] [Server thread/INFO]: Hasbullita issued server command: /effect give TBalles minecraft:slowness infinite
+[20:04:03] [Server thread/INFO]: [Hasbullita: Applied effect Slowness to TBalles]
+[20:04:10] [Server thread/INFO]: Hasbullita issued server command: /effect clear Hasbullita
+[20:04:10] [Server thread/INFO]: [Hasbullita: Removed every effect from Hasbullita]
+[20:04:24] [Server thread/INFO]: Hasbullita issued server command: /effect give TBalles minecraft:slowness infinite 100 true
+[20:04:24] [Server thread/INFO]: [Hasbullita: Applied effect Slowness to TBalles]
+[20:04:58] [Server thread/INFO]: Hasbullita issued server command: /give Hasbullita minecraft:structure_block
+[20:04:58] [Server thread/INFO]: [Hasbullita: Gave 1 [Structure Block] to Hasbullita]
+[20:05:41] [User Authenticator #4/INFO]: UUID of player Elivipadre is 9147ae06-b859-3be6-a2f9-ce204ac86edf
+[20:05:43] [Server thread/INFO]: Elivipadre joined the game
+[20:05:43] [Server thread/INFO]: Elivipadre[/[0:0:0:0:0:0:0:1%0]:51754] logged in with entity id 7363 at ([world]-7.5, 72.0, -2.5)
+[20:06:08] [Server thread/INFO]: Hasbullita issued server command: /spark ping --Elivipadre
+[20:06:53] [Server thread/INFO]: Hasbullita issued server command: /difficulty peaceful
+[20:06:53] [Server thread/INFO]: [Hasbullita: The difficulty has been set to Peaceful]
+[20:07:32] [Server thread/INFO]: Hasbullita issued server command: /kill @e[type=!minecraft:player]
+[20:07:32] [Server thread/INFO]: Villager Villager['Villager'/7332, uuid='bee1f7ec-841c-4407-ae11-31f4b136a6d0', l='ServerLevel[world]', x=14.50, y=72.00, z=-2.50, cpos=[0, -1], tl=2453, v=true] died, message: 'Villager was killed'
+[20:07:32] [Server thread/INFO]: Villager Villager['Villager'/7333, uuid='8cb2519f-6a7c-4e6f-85f0-1ad38415869f', l='ServerLevel[world]', x=13.47, y=72.56, z=-3.34, cpos=[0, -1], tl=2448, v=true] died, message: 'Villager was killed'
+[20:07:32] [Server thread/INFO]: Villager Villager['Villager'/7336, uuid='2121ff07-1d2c-42fb-81c7-087608c6ecc4', l='ServerLevel[world]', x=10.50, y=72.00, z=-6.50, cpos=[0, -1], tl=2443, v=true] died, message: 'Villager was killed'
+[20:07:32] [Server thread/INFO]: Villager Villager['Villager'/7338, uuid='ce0d4d31-85b1-4aac-aeca-7f95909e28b6', l='ServerLevel[world]', x=5.50, y=72.00, z=-9.50, cpos=[0, -1], tl=2434, v=true] died, message: 'Villager was killed'
+[20:07:32] [Server thread/INFO]: Villager Villager['Villager'/7337, uuid='eb609a21-cbd8-476c-a20f-998addd93851', l='ServerLevel[world]', x=10.50, y=72.00, z=-10.50, cpos=[0, -1], tl=2438, v=true] died, message: 'Villager was killed'
+[20:07:32] [Server thread/INFO]: [Hasbullita: Killed 135 entities]
+[20:07:34] [Server thread/INFO]: Hasbullita issued server command: /kill @e[type=!minecraft:player]
+[20:07:34] [Server thread/INFO]: [Hasbullita: Killed 64 entities]
+[20:07:54] [Server thread/INFO]: Hasbullita issued server command: /setworldspawn
+[20:07:54] [Server thread/INFO]: [Hasbullita: Set the world spawn point to 0, 73, 0 [0.0]]
+[20:08:03] [Server thread/INFO]: Unknown selector type '@E'
+op @Elivipadre<--[HERE]
+[20:08:16] [Server thread/INFO]: Hasbullita issued server command: /op Elivipadre
+[20:08:16] [Server thread/INFO]: [Hasbullita: Made Elivipadre a server operator]
+[20:08:34] [Server thread/INFO]: Crottinho has made the advancement [Ice Bucket Challenge]
+[20:08:34] [Server thread/INFO]: Hasbullita issued server command: /kill TBalles
+[20:08:34] [Server thread/INFO]: TBalles was killed
+[20:08:34] [Server thread/INFO]: [Hasbullita: Killed TBalles]
+[20:09:14] [Server thread/INFO]: Elivipadre issued server command: /gamemode 1
+[20:09:19] [Server thread/INFO]: Elivipadre issued server command: /gamemode creative
+[20:09:19] [Server thread/INFO]: [Elivipadre: Set own game mode to Creative Mode]
+[20:09:22] [Server thread/INFO]: Hasbullita issued server command: /playsound minecraft:ambient.cave
+[20:09:22] [Server thread/INFO]: [Hasbullita: Played sound minecraft:ambient.cave to Hasbullita]
+[20:09:35] [Server thread/INFO]: Hasbullita issued server command: /gamerule commandBlockOutput
+[20:09:38] [Server thread/INFO]: Hasbullita issued server command: /gamerule commandBlockOutput false
+[20:09:38] [Server thread/INFO]: [Hasbullita: Gamerule commandBlockOutput is now set to: false]
+[20:09:50] [Server thread/INFO]: Hasbullita issued server command: /playsound minecraft:ambient.cave player TBalles
+[20:09:50] [Server thread/INFO]: [Hasbullita: Played sound minecraft:ambient.cave to TBalles]
+[20:10:07] [Server thread/INFO]: Elivipadre issued server command: /give Elivipadre minecraft:structure_block
+[20:10:07] [Server thread/INFO]: [Elivipadre: Gave 1 [Structure Block] to Elivipadre]
+[20:12:26] [Server thread/INFO]: Hasbullita issued server command: /fill 9 72 -10
+[20:12:37] [Server thread/INFO]: Hasbullita issued server command: /fill 9 72 -10 -9 72 9 air replace minecraft:water
+[20:12:37] [Server thread/INFO]: [Hasbullita: Successfully filled 66 block(s)]
+[20:12:44] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:12:44] [Server thread/INFO]: [Elivipadre: Successfully filled 836 block(s)]
+[20:13:07] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:07] [Server thread/INFO]: [Elivipadre: Successfully filled 330 block(s)]
+[20:13:13] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:13] [Server thread/INFO]: [Elivipadre: Successfully filled 295 block(s)]
+[20:13:17] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:17] [Server thread/INFO]: [Elivipadre: Successfully filled 143 block(s)]
+[20:13:19] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:19] [Server thread/INFO]: [Elivipadre: Successfully filled 15 block(s)]
+[20:13:22] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:25] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:25] [Server thread/INFO]: [Elivipadre: Successfully filled 86 block(s)]
+[20:13:28] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:28] [Server thread/INFO]: [Elivipadre: Successfully filled 291 block(s)]
+[20:13:34] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:34] [Server thread/INFO]: [Elivipadre: Successfully filled 27 block(s)]
+[20:13:38] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:38] [Server thread/INFO]: [Elivipadre: Successfully filled 41 block(s)]
+[20:13:43] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:43] [Server thread/INFO]: [Elivipadre: Successfully filled 458 block(s)]
+[20:13:52] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:52] [Server thread/INFO]: [Elivipadre: Successfully filled 71 block(s)]
+[20:13:56] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:56] [Server thread/INFO]: [Elivipadre: Successfully filled 38 block(s)]
+[20:13:59] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:13:59] [Server thread/INFO]: [Elivipadre: Successfully filled 18 block(s)]
+[20:14:37] [Server thread/INFO]: Crottinho issued server command: /gamemode survival
+[20:14:37] [Server thread/INFO]: [Crottinho: Set own game mode to Survival Mode]
+[20:14:41] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:14:41] [Server thread/INFO]: [Elivipadre: Successfully filled 808 block(s)]
+[20:15:09] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:15:09] [Server thread/INFO]: [Elivipadre: Successfully filled 583 block(s)]
+[20:15:13] [Server thread/INFO]: Elivipadre issued server command: /fill -12 71 12 ~ ~ ~ air
+[20:15:13] [Server thread/INFO]: [Elivipadre: Successfully filled 149 block(s)]
+[20:15:35] [Server thread/INFO]: Hasbullita issued server command: /fill 14 71 -13
+[20:15:47] [Server thread/INFO]: Hasbullita issued server command: /fill 14 71 -13 -12 71 16 minecraft:grass_block replace air
+[20:15:47] [Server thread/INFO]: [Hasbullita: Successfully filled 126 block(s)]
+[20:16:33] [Server thread/INFO]: Hasbullita issued server command: /clear @a
+[20:16:33] [Server thread/INFO]: [Hasbullita: Removed 58 item(s) from 4 players]
+[20:16:52] [Server thread/INFO]: Hasbullita issued server command: /clear @a
+[20:17:12] [Server thread/INFO]: Elivipadre issued server command: /kick Crottinho
+[20:17:12] [Server thread/INFO]: Crottinho lost connection: Kicked by an operator
+[20:17:12] [Server thread/INFO]: Crottinho left the game
+[20:17:12] [Server thread/INFO]: [Elivipadre: Kicked Crottinho: Kicked by an operator]
+[20:17:15] [User Authenticator #5/INFO]: UUID of player Crottinho is f3dc4170-7c7d-35e5-8bed-ea79061118d3
+[20:17:16] [Server thread/INFO]: Crottinho joined the game
+[20:17:16] [Server thread/INFO]: Crottinho[/[0:0:0:0:0:0:0:1%0]:39942] logged in with entity id 8061 at ([world]-3.2624441801261916, 73.0, -0.05682134554285148)
+[20:17:47] [Server thread/INFO]: Hasbullita issued server command: /tick freeze
+[20:17:47] [Server thread/INFO]: [Hasbullita: The game is frozen]
+[20:18:22] [Server thread/INFO]: Hasbullita issued server command: /tick unfreeze
+[20:18:22] [Server thread/INFO]: [Hasbullita: The game is running normally]
+[20:18:25] [Server thread/INFO]: Hasbullita issued server command: /tick freeze
+[20:18:25] [Server thread/INFO]: [Hasbullita: The game is frozen]
+[20:18:57] [Server thread/INFO]: Hasbullita issued server command: /tick unfreeze
+[20:18:57] [Server thread/INFO]: [Hasbullita: The game is running normally]
+[20:18:57] [Server thread/INFO]: TBalles has made the advancement [Take Aim]
+[20:19:02] [Server thread/INFO]: Hasbullita issued server command: /tick freeze
+[20:19:02] [Server thread/INFO]: [Hasbullita: The game is frozen]
+[20:19:04] [Server thread/INFO]: Hasbullita issued server command: /tick unfreeze
+[20:19:04] [Server thread/INFO]: [Hasbullita: The game is running normally]
+[20:19:10] [Server thread/INFO]: Hasbullita issued server command: /tick sprint 1d
+[20:19:10] [Server thread/INFO]: [Hasbullita: The game is sprinting]
+[20:19:12] [Server thread/INFO]: Elivipadre issued server command: /spark tps
+[20:19:36] [Server thread/INFO]: Elivipadre issued server command: /clear Crottinho
+[20:19:37] [Server thread/INFO]: Sprint completed with 869 ticks per second, or 1.15 ms per tick
+[20:19:49] [Server thread/INFO]: Hasbullita issued server command: /tick step 10t
+[20:19:53] [Server thread/INFO]: Hasbullita issued server command: /tick freeze
+[20:19:53] [Server thread/INFO]: [Hasbullita: The game is frozen]
+[20:19:54] [Server thread/INFO]: Hasbullita issued server command: /tick step 10t
+[20:19:54] [Server thread/INFO]: [Hasbullita: Stepping 10 tick(s)]
+[20:20:02] [Server thread/INFO]: Hasbullita issued server command: /tick unfreeze
+[20:20:02] [Server thread/INFO]: [Hasbullita: The game is running normally]
+[20:20:10] [Server thread/INFO]: Hasbullita issued server command: /deop Crottinho
+[20:20:10] [Server thread/INFO]: [Hasbullita: Made Crottinho no longer a server operator]
+[20:20:14] [Server thread/INFO]: Hasbullita issued server command: /deop TBalles
+[20:20:14] [Server thread/INFO]: [Hasbullita: Made TBalles no longer a server operator]
+[20:20:15] [Server thread/INFO]: Elivipadre issued server command: /fillbiome ~ ~ ~ ~ ~ ~ minecraft:the_end
+[20:20:15] [Server thread/INFO]: [Elivipadre: 1 biome entry/entries set between 0, 72, 4 and 0, 72, 4]
+[20:20:33] [Server thread/INFO]: Hasbullita issued server command: /gamemode survival TBalles
+[20:20:33] [Server thread/INFO]: [Hasbullita: Set TBalles's game mode to Survival Mode]
+[20:20:35] [Server thread/INFO]: Elivipadre issued server command: /fillbiome 0 ~ ~ 0 ~ ~ minecraft:the_end
+[20:20:35] [Server thread/INFO]: [Elivipadre: 1 biome entry/entries set between 0, 72, 0 and 0, 72, 0]
+[20:20:36] [Server thread/INFO]: Hasbullita issued server command: /gamemode survival Crottinho
+[20:21:44] [Server thread/INFO]: Hasbullita issued server command: /fillbiome 9 71 8
+[20:21:53] [Server thread/INFO]: Hasbullita issued server command: /fillbiome 9 71 8 1 72 1 minecraft:birch_forest
+[20:21:53] [Server thread/INFO]: [Hasbullita: 18 biome entry/entries set between 0, 68, 0 and 8, 72, 8]
+[20:21:55] [Server thread/INFO]: Elivipadre issued server command: /minecraft:fill ~ ~ ~ ~ ~ ~ minecraft:waxed_exposed_cut_copper_slab
+[20:21:55] [Server thread/INFO]: [Elivipadre: Successfully filled 1 block(s)]
+[20:22:17] [Server thread/INFO]: Hasbullita has made the advancement [Take Aim]
+[20:22:20] [Server thread/INFO]: Elivipadre issued server command: /stopsound
+[20:22:29] [Server thread/INFO]: Hasbullita issued server command: /advancement revoke @a everything
+[20:22:29] [Server thread/INFO]: [Hasbullita: Revoked 1399 advancements from 4 players]
+[20:22:34] [Server thread/INFO]: Elivipadre issued server command: /stopsound @a
+[20:22:34] [Server thread/INFO]: [Elivipadre: Stopped all sounds]
+[20:22:44] [Server thread/INFO]: Elivipadre issued server command: /stopsound Elivipadre
+[20:22:44] [Server thread/INFO]: [Elivipadre: Stopped all sounds]
+[20:22:55] [Server thread/INFO]: Elivipadre issued server command: /stop
+[20:22:55] [Server thread/INFO]: [Elivipadre: Stopping the server]
+[20:22:55] [Server thread/INFO]: Stopping server
+[20:22:55] [Server thread/INFO]: Saving players
+[20:22:55] [Server thread/INFO]: Hasbullita lost connection: Server closed
+[20:22:55] [Server thread/INFO]: Hasbullita left the game
+[20:22:55] [Server thread/INFO]: Elivipadre lost connection: Server closed
+[20:22:55] [Server thread/INFO]: Elivipadre left the game
+[20:22:55] [Server thread/INFO]: TBalles lost connection: Server closed
+[20:22:55] [Server thread/INFO]: TBalles left the game
+[20:22:55] [Server thread/INFO]: Crottinho lost connection: Server closed
+[20:22:55] [Server thread/INFO]: Crottinho left the game
+[20:22:56] [Server thread/INFO]: Saving worlds
+[20:22:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:22:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:22:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:22:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:22:56] [Server thread/INFO]: [ChunkHolderManager] Saved 95 block chunks, 100 entity chunks, 0 poi chunks in world 'world' in 0.24s
+[20:22:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:22:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:22:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:22:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:22:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[20:22:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:22:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:22:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:22:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:22:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[20:22:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:22:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:22:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:22:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
