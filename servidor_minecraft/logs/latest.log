@@ -47,3 +47,9 @@ ipconfig /all<--[HERE]
 [18:29:26] [Server thread/INFO]: Hasbullita left the game
 [18:32:05] [Server thread/INFO]: Unknown or incomplete command, see below for error
 ip<--[HERE]
+[18:42:47] [User Authenticator #2/INFO]: UUID of player Hasbullita is 2bb60544-0a27-4553-9bfe-4be2898d614e
+[18:42:49] [Server thread/INFO]: Hasbullita joined the game
+[18:42:49] [Server thread/INFO]: Hasbullita[/[0:0:0:0:0:0:0:1%0]:35506] logged in with entity id 633 at ([world]4.254900899863295, 72.0, -6.2912877875949835)
+[18:43:37] [Server thread/INFO]: Hasbullita issued server command: /plugins
+[18:43:57] [Server thread/INFO]: Hasbullita issued server command: /tps
+[18:44:07] [Server thread/INFO]: Hasbullita issued server command: /transfer
