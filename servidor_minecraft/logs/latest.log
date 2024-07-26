@@ -1,0 +1,96 @@
+[17:59:16] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.3+9-LTS; Microsoft Microsoft-9388422) on Linux 6.5.0-1022-azure (amd64)
+[17:59:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-109-master@5a5035b (2024-07-23T08:16:30Z) for Minecraft 1.21
+[17:59:17] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:59:17] [ServerMain/ERROR]: [EntrypointUtil] Failed to open plugin jar plugins/EssentialsX-2.21.0-dev%252B93-3a6fdd9.jar
+java.lang.RuntimeException: Failed to open plugin jar plugins/EssentialsX-2.21.0-dev%252B93-3a6fdd9.jar
+	at io.papermc.paper.pluginremap.PluginRemapper.remap(PluginRemapper.java:339) ~[paper-1.21.jar:1.21-109-5a5035b]
+	at io.papermc.paper.pluginremap.PluginRemapper.remapPlugin(PluginRemapper.java:266) ~[paper-1.21.jar:1.21-109-5a5035b]
+	at io.papermc.paper.pluginremap.PluginRemapper.rewritePluginDirectory(PluginRemapper.java:204) ~[paper-1.21.jar:1.21-109-5a5035b]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.prepareContext(DirectoryProviderSource.java:42) ~[paper-1.21.jar:1.21-109-5a5035b]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.prepareContext(DirectoryProviderSource.java:17) ~[paper-1.21.jar:1.21-109-5a5035b]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:14) ~[paper-1.21.jar:1.21-109-5a5035b]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.jar:1.21-109-5a5035b]
+	at net.minecraft.server.Main.main(Main.java:122) ~[paper-1.21.jar:1.21-109-5a5035b]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.jar:1.21-109-5a5035b]
+	at org.bukkit.craftbukkit.Main.main(Main.java:287) ~[paper-1.21.jar:1.21-109-5a5035b]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.util.zip.ZipException: zip END header not found
+	at jdk.zipfs@21.0.3/jdk.nio.zipfs.ZipFileSystem.findEND(ZipFileSystem.java:1320) ~[jdk.zipfs:?]
+	at jdk.zipfs@21.0.3/jdk.nio.zipfs.ZipFileSystem.initCEN(ZipFileSystem.java:1541) ~[jdk.zipfs:?]
+	at jdk.zipfs@21.0.3/jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:179) ~[jdk.zipfs:?]
+	at jdk.zipfs@21.0.3/jdk.nio.zipfs.ZipFileSystemProvider.getZipFileSystem(ZipFileSystemProvider.java:125) ~[jdk.zipfs:?]
+	at jdk.zipfs@21.0.3/jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:120) ~[jdk.zipfs:?]
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:528) ~[?:?]
+	at java.base/java.nio.file.FileSystems.newFileSystem(FileSystems.java:440) ~[?:?]
+	at io.papermc.paper.pluginremap.PluginRemapper.remap(PluginRemapper.java:290) ~[paper-1.21.jar:1.21-109-5a5035b]
+	... 11 more
+[17:59:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[17:59:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:59:24] [ServerMain/INFO]: Loaded 1290 recipes
+[17:59:24] [ServerMain/INFO]: Loaded 1399 advancements
+[17:59:25] [Server thread/INFO]: Starting minecraft server version 1.21
+[17:59:25] [Server thread/INFO]: Loading properties
+[17:59:25] [Server thread/INFO]: This server is running Paper version 1.21-109-master@5a5035b (2024-07-23T08:16:30Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[17:59:26] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:59:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:59:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:59:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[17:59:26] [Server thread/INFO]: Default game type: SURVIVAL
+[17:59:26] [Server thread/INFO]: Generating keypair
+[17:59:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:59:27] [Server thread/INFO]: Using epoll channel type
+[17:59:27] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:59:27] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[17:59:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:59:27] [Server thread/INFO]: Preparing level "world"
+[17:59:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:59:29] [Server thread/INFO]: Time elapsed: 1527 ms
+[17:59:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:59:29] [Server thread/INFO]: Time elapsed: 190 ms
+[17:59:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:59:29] [Server thread/INFO]: Time elapsed: 102 ms
+[17:59:29] [Server thread/INFO]: [spark] Starting background profiler...
+[17:59:29] [Server thread/INFO]: Done preparing level "world" (2.602s)
+[17:59:29] [Server thread/INFO]: Running delayed init tasks
+[17:59:29] [Server thread/INFO]: Done (14.633s)! For help, type "help"
+[17:59:29] [Server thread/INFO]: Timings Reset
+[18:00:22] [User Authenticator #0/INFO]: UUID of player Hasbullita is 2bb60544-0a27-4553-9bfe-4be2898d614e
+[18:00:24] [Server thread/INFO]: Hasbullita joined the game
+[18:00:25] [Server thread/INFO]: Hasbullita[/[0:0:0:0:0:0:0:1%0]:48894] logged in with entity id 61 at ([world]-0.21978546143523478, 72.0, -5.478254604925744)
+[18:00:43] [Server thread/INFO]: Hasbullita issued server command: /plugins
+[18:00:57] [Server thread/INFO]: Hasbullita issued server command: /bukkit:plugins
+[18:01:39] [Server thread/INFO]: Hasbullita issued server command: /gamemode spectator
+[18:01:39] [Server thread/INFO]: [Hasbullita: Set own game mode to Spectator Mode]
+[18:01:47] [Server thread/INFO]: Hasbullita issued server command: /gamemode creative
+[18:01:47] [Server thread/INFO]: [Hasbullita: Set own game mode to Creative Mode]
+[18:10:08] [Async Chat Thread - #2/INFO]: <Hasbullita> git push
+[18:10:15] [Server thread/INFO]: Hasbullita issued server command: /git push
+[18:10:24] [Async Chat Thread - #2/INFO]: <Hasbullita> "hola"
+[18:10:31] [Async Chat Thread - #2/INFO]: <Hasbullita> \n
+[18:10:41] [Server thread/INFO]: Hasbullita issued server command: /stop
+[18:10:41] [Server thread/INFO]: [Hasbullita: Stopping the server]
+[18:10:41] [Server thread/INFO]: Stopping server
+[18:10:41] [Server thread/INFO]: Saving players
+[18:10:41] [Server thread/INFO]: Hasbullita lost connection: Server closed
+[18:10:41] [Server thread/INFO]: Hasbullita left the game
+[18:10:41] [Server thread/INFO]: Saving worlds
+[18:10:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:10:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:10:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:10:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:10:42] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 115 entity chunks, 0 poi chunks in world 'world' in 0.09s
+[18:10:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:10:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:10:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:10:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:10:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[18:10:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:10:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:10:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:10:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:10:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[18:10:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:10:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:10:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:10:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
