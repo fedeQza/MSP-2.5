@@ -75,3 +75,28 @@ ip<--[HERE]
 [18:54:33] [User Authenticator #4/INFO]: Disconnecting balles (/[0:0:0:0:0:0:0:1%0]:53690): Failed to verify username!
 [18:54:33] [User Authenticator #4/ERROR]: Username 'balles' tried to join with an invalid session
 [18:54:33] [Server thread/INFO]: balles (/[0:0:0:0:0:0:0:1%0]:53690) lost connection: Failed to verify username!
+[18:54:53] [Server thread/INFO]: Stopping the server
+[18:54:53] [Server thread/INFO]: Stopping server
+[18:54:53] [Server thread/INFO]: Saving players
+[18:54:53] [Server thread/INFO]: Hasbullita lost connection: Server closed
+[18:54:53] [Server thread/INFO]: Hasbullita left the game
+[18:54:53] [Server thread/INFO]: Saving worlds
+[18:54:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:54:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:54:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:54:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Saved 14 block chunks, 120 entity chunks, 0 poi chunks in world 'world' in 0.12s
+[18:54:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[18:54:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:54:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[18:54:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:54:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:54:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:54:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
